@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
 
     # s.platform          = :ios
-    s.source            = { :http => 'https://github.com/jordimele/RealmBinary/blob/master/RealmBinary.zip' }
+    s.source            = { :http => 'https://github.com/jordimele/RealmBinary/blob/master/RealmBinary42ALL.zip' }
     
     # Investigar esta notación para alojar el .zip binario
     #s.source            = { :path => './RealmBinary42ALL.zip' }
