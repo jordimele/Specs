@@ -10,6 +10,8 @@ Pod::Spec.new do |s|
     # s.platform          = :ios
     s.source            = { :http => 'https://www.dropbox.com/s/qgte6yzj3f3hu6o/RealmBinary42ALL.zip?dl=0' }
     
+    s.static_framework  = true
+
     # Investigar esta notación para alojar el .zip binario
     #s.source            = { :path => './RealmBinary42ALL.zip' }
 
@@ -26,8 +28,6 @@ Pod::Spec.new do |s|
 
     s.pod_target_xcconfig = {
         'OTHER_CFLAGS' => '$(inherited) -DSQLITE_HAS_CODEC -DSQLCIPHER_CRYPTO_CC'
-      }
-
-    s.static_framework = true
+      }    
     
 end  
