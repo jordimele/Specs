@@ -28,4 +28,6 @@ Pod::Spec.new do |s|
         'OTHER_CFLAGS' => '$(inherited) -DSQLITE_HAS_CODEC -DSQLCIPHER_CRYPTO_CC'
       }
 
+    s.static_framework = true
+    
 end  
