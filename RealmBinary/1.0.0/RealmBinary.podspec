@@ -5,7 +5,8 @@ Pod::Spec.new do |s|
     s.homepage          = 'http://example.com/'
 
     s.author            = { 'Name' => 'sdk@example.com' }
-    s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
+    s.license           = { :type => "Commercial" }
+    # s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
 
     # s.platform          = :ios
     s.source            = { :http => 'https://www.dropbox.com/s/8m2vtvn739wbl3o/RealmBinary4ALL.zip?dl=0' }
