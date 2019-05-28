@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
     # s.platform          = :ios
     # s.source            = { :http => 'https://www.dropbox.com/s/8m2vtvn739wbl3o/RealmBinary4ALL.zip?dl=0' }
-    s.source            = { :http => 'hthttps://www.dropbox.com/s/u7z9xqzzv88m44e/RealmBinary4ALL_NO_License.zip?dl=0' }
+    s.source            = { :http => 'https://www.dropbox.com/s/u7z9xqzzv88m44e/RealmBinary4ALL_NO_License.zip?dl=0' }
 
     # Investigar esta notación para alojar el .zip binario
     #s.source            = { :path => './RealmBinary42ALL.zip' }
