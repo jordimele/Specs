@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "Commercial" }
   s.author       = "OpenTrends"
   # s.source       = { :git => "https://git.svb.lacaixa.es/arq_ios/aarqAdamCore.git", :branch => 'feature/poc_binary' }
-  s.source       = { :http => "https://www.dropbox.com/s/nysfo75kqk39e8m/aarqAdamCore_Xcode11.zip?dl=0" }
+  s.source       = { :http => "https://www.dropbox.com/s/3z6joozoitr0m3t/aarqAdamCore_Xcode11.zip?dl=0" }
   # s.source       = { :http => "https://www.dropbox.com/s/6eibng6n0nt6hhh/aarqAdamCore_Xcode12.zip?dl=0" }
 
   # s.source_files  = "Shared", "Shared/**/*.{h,m,swift,plist}"
