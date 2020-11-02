@@ -18,14 +18,17 @@ Pod::Spec.new do |s|
   s.dependency 'aarqAdamCore', '4.0.0.binary'
 
   s.ios.deployment_target = '10.3'
+  s.ios.vendored_frameworks =  'ios/*.framework'
   # s.ios.source_files  = "aarqUtils/**/*.{h,m,swift,plist}"
   s.ios.exclude_files = "aarqUtils/Info.plist"
 
   s.tvos.deployment_target = '10.2'
+  s.tvos.vendored_frameworks = 'tvos/*.framework'
   # s.tvos.source_files  = "aarqUtilsTvOS/**/*.{h,m,swift,plist}"
   s.tvos.exclude_files = "aarqUtilsTvOS/Info.plist"
 
   s.watchos.deployment_target = '3.2'
+  s.watchos.vendored_frameworks = 'watchos/*.framework'
   # s.watchos.source_files  = "aarqUtilsWatchOS/**/*.{h,m,swift,plist}"
   s.watchos.exclude_files = "aarqUtilsWatchOS/Info.plist"
 
